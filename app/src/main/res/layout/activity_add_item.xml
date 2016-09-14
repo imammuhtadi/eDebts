@@ -1,0 +1,73 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <include
+        android:id="@+id/tool_bar"
+        layout="@layout/tool_bar"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        />
+
+    <LinearLayout
+        android:layout_marginTop="55dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:orientation="vertical">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="23dp"
+            android:id="@+id/nama"
+            android:hint="nama" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_marginTop="23dp"
+            android:hint="Nominal"
+            android:inputType="number"
+            android:id="@+id/nominal"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_marginTop="23dp"
+            android:hint="Deskripsi"
+            android:id="@+id/desc"
+            android:layout_height="wrap_content" />
+
+        <RadioGroup android:layout_marginTop="23dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Hutang"
+                android:checked="false"
+                android:onClick="onJenisClicked"
+                android:id="@+id/rbHutang" />
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Piutang"
+                android:checked="false"
+                android:onClick="onJenisClicked"
+                android:id="@+id/rbPiutang" />
+        </RadioGroup>
+
+        <com.gc.materialdesign.views.ButtonRectangle
+            android:id="@+id/button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/ColorPrimary"
+            android:text="Button"
+            android:onClick="onAddClick"
+            android:layout_gravity="center_horizontal" />
+
+    </LinearLayout>
+</RelativeLayout>

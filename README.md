@@ -1,3 +1,3 @@
 eDebts adalah aplikasi pencatatan hutang-piutang sederhana dengan menggunakan SQLite dan dengan tampilan Material Design.
 
-![alt tag](http://www.imagebam.com/image/89aea5505512306)
+![alt tag](https://raw.githubusercontent.com/imammuhtadi/eDebts/master/app/src/main/res/drawable/eDebts%20mockup.png)

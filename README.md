@@ -1,7 +1,7 @@
-**eDebts**<br />
+# eDebts<br />
 eDebts adalah aplikasi pencatatan hutang-piutang sederhana dengan menggunakan SQLite dan dengan tampilan Material Design.
 
-**Library**<br />
+# Library<br />
 [Google IOsched](https://github.com/google/iosched)<br />
 [navasmdc MaterialDesignLibrary](https://github.com/navasmdc/MaterialDesignLibrary)
 
